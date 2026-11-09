@@ -50,6 +50,8 @@ public class VerificationActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+// fonction t5arej true ken nombre est premier
+
     private boolean estPremier(int n) {
         if (n < 2) return false;
         for (int i = 2; i * i <= n; i++) {
