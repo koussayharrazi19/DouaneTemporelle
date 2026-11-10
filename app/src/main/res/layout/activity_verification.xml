@@ -56,6 +56,7 @@
             android:textSize="16sp" />
 
         <Button
+            android:backgroundTint="#F44336"
             android:id="@+id/btn_refuser_kh"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,6 +64,7 @@
             android:text="Refuser (Risque de paradoxe)" />
 
         <Button
+            android:backgroundTint="#4CAF50"
             android:id="@+id/btn_approuver_kh"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

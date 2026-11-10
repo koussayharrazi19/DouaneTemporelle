@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFF8E1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="24dp">
-
+    <TextView
+        android:id="@+id/tv_titre_main_kh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOUANE TEMPORELLE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#6D4C41"
+        android:layout_marginBottom="24dp" />
     <EditText
         android:id="@+id/et_nom_kh"
         android:layout_width="match_parent"
@@ -31,6 +41,7 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:backgroundTint="#6D4C41"
         android:id="@+id/btn_inspecter_kh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
