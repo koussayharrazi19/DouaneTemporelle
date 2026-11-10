@@ -11,10 +11,10 @@
         android:id="@+id/tv_message_kh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:textColor="#FFFFFF"
         android:textSize="26sp"
-        android:textStyle="bold"
-        android:gravity="center" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btn_nouveau_kh"
